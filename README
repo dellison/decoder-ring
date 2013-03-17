@@ -1,0 +1,12 @@
+__ABOUT__ 
+Decoder Ring program, written to solve the secret messages in Joe
+Meno's novel "The Boy Detective Fails" (I didn't want to cut up the
+cover of the book).
+
+__USAGE__ 
+$ python decoder_ring.py <input_file>
+
+Input file should have two lines: 1: letter and number to align on the
+inner and outer discs of the decoder ring. These should be separated
+by a space.  2: message to decode. In the novel, letters are separated
+by a dash.
