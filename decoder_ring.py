@@ -11,7 +11,6 @@ letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 numbers = range(1, 27)
 
 inF = open(sys.argv[1])
-
 lines = inF.readlines()
 
 key = (lines[0].split(" ")[0], int(lines[0].split(" ")[1]))
